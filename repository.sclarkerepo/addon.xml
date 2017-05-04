@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.sclarkerepo" name="[COLOR white]sClarke's Repo[/COLOR]" version="1.0" provider-name="sClarke">
+	<extension point="xbmc.addon.repository" name="MediaHubIPTV Repository">
+		<info compressed="false">https://raw.githubusercontent.com/sClarkeIsBack/sClarkeRepo/master/repo_files/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/sClarkeIsBack/MediaH/master/sClarkeRepo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/sClarkeIsBack/sClarkeRepo/master/repo_files/Zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>sClarke's Repo Repo</summary>
+		<description>Bringing Access to A Range Of Online Content. From Movies to Live TV. [C]No Content found within this Repository is mine.
+		Neither do i have any affiliation with Kodi Repo or Addons.[C]sClarke 3rd Party Addon Developer.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
