@@ -3,6 +3,11 @@ import xbmc,xbmcaddon,xbmcgui,xbmcplugin,xbmcvfs
 
 from resources.modules import client,trailer
 
+
+def run():
+	xbmcgui.Dialog().ok('[COLOR yellow][B]TORBA[/B][/COLOR]','torba.se is down. so this addon is down too. if the site comes back, we will too.')
+	sys.exit()
+run()
 addon_id   = 'plugin.video.torba'
 
 icon       = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'icon.png'))
